@@ -23,6 +23,7 @@ Como rodar o projeto
 clone
 
 git clone https://github.com/DanielAugustz/crud-main.git
+
 cd crud-main
 
 ---
@@ -35,6 +36,7 @@ docker-compose up --build
 Acesse a API
 
 API rodando em: http://localhost:8000
+
 Documentação Swagger: http://localhost:8000/docs
 
 ---
@@ -42,7 +44,11 @@ Documentação Swagger: http://localhost:8000/docs
 Criados / Disponiveis
 
 POST /alunos/ → cria um aluno
+
 GET /alunos/ → lista todos os alunos
+
 PUT /alunos/{id} → atualiza os dados de um aluno
+
 DELETE /alunos/{id} → remove um aluno
+
 
